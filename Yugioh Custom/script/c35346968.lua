@@ -13,7 +13,7 @@ function c35346968.initial_effect(c)
 	e2:SetRange(LOCATION_SZONE)
 	e2:SetCode(EVENT_DRAW)
 	e2:SetOperation(c35346968.recop)
-	c:RegisterEffect(e2)
+	c:RegisterEffect(e2)math.random(m, n)
 end
 function c35346968.recop(e,tp,eg,ep,ev,re,r,rp)
 	if ep~=tp then return end
